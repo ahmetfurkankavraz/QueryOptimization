@@ -1,0 +1,80 @@
+{"Chromosome" :1 , "Type" :"SNP"}
+{"Chromosome" :2 , "Type" :"INV"}
+{"Chromosome" :3 , "Type" :"INS"}
+{"Chromosome" :4 , "Type" :"INDEL"}
+{"Chromosome" :5 , "Type" :"CN"}
+{"Chromosome" :6 , "Type" :"DEL"}
+{"Chromosome" :7 , "Type" :"SNP"}
+{"Chromosome" :8 , "Type" :"INV"}
+{"Chromosome" :9 , "Type" :"INS"}
+{"Chromosome" :10 , "Type" :"INDEL"}
+{"Chromosome" :11 , "Type" :"CN"}
+{"Chromosome" :12 , "Type" :"DEL"}
+{"Chromosome" :13 , "Type" :"SNP"}
+{"Chromosome" :14 , "Type" :"INV"}
+{"Chromosome" :15 , "Type" :"INS"}
+{"Chromosome" :16 , "Type" :"INDEL"}
+{"Chromosome" :17 , "Type" :"CN"}
+{"Chromosome" :18 , "Type" :"DEL"}
+{"Chromosome" :19 , "Type" :"SNP"}
+{"Chromosome" :20 , "Type" :"INV"}
+{"Chromosome" :1 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"}}
+{"Chromosome" :2 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"}}
+{"Chromosome" :3 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"}}
+{"Chromosome" :4 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"}}
+{"Chromosome" :5 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"}}
+{"Chromosome" :6 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"}}
+{"Chromosome" :7 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"}}
+{"Chromosome" :8 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"}}
+{"Chromosome" :9 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"}}
+{"Chromosome" :10 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"}}
+{"Chromosome" :11 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"}}
+{"Chromosome" :12 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"}}
+{"Chromosome" :13 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"}}
+{"Chromosome" :14 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"}}
+{"Chromosome" :15 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"}}
+{"Chromosome" :16 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"}}
+{"Chromosome" :17 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"}}
+{"Chromosome" :18 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"}}
+{"Chromosome" :19 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"}}
+{"Chromosome" :20 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"}}
+{"Chromosome" :1 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"}, "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :2 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000}}
+{"Chromosome" :3 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :4 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :5 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :6 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000}}
+{"Chromosome" :7 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :8 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :9 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :10 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000}}
+{"Chromosome" :11 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :12 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :13 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000}}
+{"Chromosome" :14 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 10000, "$lte": 20000000}}
+{"Chromosome" :15 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :16 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :17 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000}}
+{"Chromosome" :18 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 100000, "$lte": 20000000}}
+{"Chromosome" :19 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :20 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000}}
+{"Chromosome" :1 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Benign%"}}
+{"Chromosome" :2 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :3 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Likely_benign%"}}
+{"Chromosome" :4 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :5 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Benign%"}}
+{"Chromosome" :6 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :7 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Likely_benign%"}}
+{"Chromosome" :8 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :9 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Benign%"}}
+{"Chromosome" :10 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :11 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Likely_benign%"}}
+{"Chromosome" :12 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :13 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Benign%"}}
+{"Chromosome" :14 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 10000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :15 , "Type" :"INS" , "GeneName": {"$regex":  "%CAN%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Likely_benign%"}}
+{"Chromosome" :16 , "Type" :"INDEL" , "GeneName": {"$regex":  "%OR1%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :17 , "Type" :"CN" , "GeneName": {"$regex":  "%PKN2%"} , "PositionStart": {"$gte": 1000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Benign%"}}
+{"Chromosome" :18 , "Type" :"DEL" , "GeneName": {"$regex":  "%PAFAH%"} , "PositionStart": {"$gte": 100000, "$lte": 20000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}
+{"Chromosome" :19 , "Type" :"SNP" , "GeneName": {"$regex":  "%RRC%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Likely_benign%"}}
+{"Chromosome" :20 , "Type" :"INV" , "GeneName": {"$regex":  "%NF%"} , "PositionStart": {"$gte": 1000, "$lte": 2000000} , "ClinicalSignificance": {"$regex":  "%Pathogenic%"}}

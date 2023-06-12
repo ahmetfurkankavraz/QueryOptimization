@@ -1,0 +1,4 @@
+CREATE INDEX idx_variants_chromosome_type_positionstart ON "Variants" ("Chromosome", "Type", "PositionStart");
+CREATE INDEX idx_variants_genename_trigram ON "Variants" USING gin ("GeneName" gin_trgm_ops);
+CREATE INDEX idx_variants_clinsign_trigram ON "Variants" USING gin ("ClinicalSignificance" gin_trgm_ops);
+CREATE INDEX idx_variants_chromosome_type_positionstart ON "Variants" ("Chromosome", "Type", "PositionStart"); CREATE INDEX idx_variants_genename_trigram ON "Variants" USING gin ("GeneName" gin_trgm_ops); CREATE INDEX idx_variants_clinsign_trigram ON "Variants" USING gin ("ClinicalSignificance" gin_trgm_ops);
